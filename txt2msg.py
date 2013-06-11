@@ -77,7 +77,8 @@ def get_homepage(data):
     return ''
 
 def main(filename):
-    data = etree.fromstring(open(filename).read())
+    file_contents = open(filename).read().replace('\0', '')
+    data = etree.fromstring(file_contents)
 
     out = ''
     out += get_date(data)
