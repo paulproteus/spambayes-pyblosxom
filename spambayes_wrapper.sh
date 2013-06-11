@@ -11,8 +11,8 @@ SCRIPTPATH="$(dirname $SCRIPT)"
 SPAMBAYES_DB_PATH="$SCRIPTPATH/spambayes.db"
 
 function test() {
-    sb_filter -d "$SPAMBAYES_DB_PATH" - | grep -q '^X-Spambayes-Classification: spam'
-    exit $?
+    sb_filter -d "$SPAMBAYES_DB_PATH" - | tee /dev/stderr | grep -q '^X-Spambayes-Classification: spam'
+    exit $(( 1 - $? ))
 }
 
 function train_ham() {
