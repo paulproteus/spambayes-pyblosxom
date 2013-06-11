@@ -46,7 +46,13 @@ def get_from(data):
     if email_addr:
         from_data.append(email_addr)
 
-    return "From: " + email.utils.formataddr(from_data) + "\r\n"
+    if len(from_data) > 1:
+        as_string = email.utils.formataddr(from_data)
+    else:
+        as_string = from_data[0]
+
+    return "From: " + as_string + '\r\n'
+
 
 def get_subject(data):
     value = _get_tag(data, 'title')
