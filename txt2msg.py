@@ -72,8 +72,8 @@ def get_homepage(data):
             value,)
     return ''
 
-def main():
-    data = etree.fromstring(open('sample_ham.txt').read())
+def main(filename):
+    data = etree.fromstring(open(filename).read())
 
     out = ''
     out += get_date(data)
@@ -86,4 +86,4 @@ def main():
     return out
 
 if __name__ == '__main__':
-    utf8_stdout.write(main())
+    utf8_stdout.write(main(sys.argv[1]))
