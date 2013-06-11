@@ -1,9 +1,7 @@
 from lxml import etree
 import calendar
-import datetime
 import time
 import email.utils
-import pytz
 
 import codecs
 import sys
@@ -82,7 +80,7 @@ def main(filename):
     out += get_subject(data)
     out += split_headers_from_body()
     out += get_body(data)
-    out += get_homepage(data)    
+    out += get_homepage(data)
     return out
 
 if __name__ == '__main__':
