@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+<description>Hello Asheesh,&lt;br /&gt;
+&lt;br /&gt;
+I came to your site via Slashdot's story about key collisions.&lt;br /&gt;
+&lt;br /&gt;
+When I saw this page, I had to read, it's something I am careful about (ethics of where I spend my money). &lt;br /&gt;
+&lt;br /&gt;
+1) Thanks for reminding me of local group Adbusters' shoes, I'd completely forgotten.&lt;br /&gt;
+&lt;br /&gt;
+2) On CBC's Dragons' Den a guy who makes shoes in Africa made a presentation.  They seem like quite nice shoes -- hopefully I'll get a pair one of these days. &lt;br /&gt;
+&lt;br /&gt;
+You may be interested in them yourself, so, as someone with &lt;b&gt;no affiliations&lt;/b&gt; to them, I'll pass along the company:&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a rel="nofollow" href="http://www.oliberte.com"&gt;Oliberté Shoes&lt;/a&gt;:&lt;br /&gt;
+&amp;lt;blockquote&amp;gt;&lt;br /&gt;
+Why Made in Africa? This is Africa.&lt;br /&gt;
+&lt;br /&gt;
+So what’s with this whole Africa thing people ask us sometimes. It’s simple, Oliberté is about creating a better Africa, that people see differently. And we do it by creating premium shoes, made of the highest quality possible working with amazing people – all in Africa.&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;</description>
+<parent>mmm/shoes-and-socks</parent>
+<secretToken>pleaseDontSpam</secretToken>
+<link>https://www.maow.net</link>
+<date>Tue 27 Dec 2011</date>
+<w3cdate>2011-12-27T09:27:37Z</w3cdate>
+<ipaddress>69.172.154.110</ipaddress>
+<post>Post</post>
+<pubDate>1324978057.17</pubDate>
+<title>Shoes and socks</title>
+<author>Ronald</author>
+<source></source>
+<email>ronald@example.com</email>
+</item>
+
